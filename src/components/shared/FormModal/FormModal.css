@@ -1,0 +1,24 @@
+.custom-modal {
+    width: 40%;
+  padding: 32px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  background: var(--natural-white);
+  position: absolute;
+}
+
+.dialogue-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    scroll-behavior: unset;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(28, 34, 41, 0.8);
+    backdrop-filter: blur(2px);
+}

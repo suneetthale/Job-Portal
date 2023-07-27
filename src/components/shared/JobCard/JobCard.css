@@ -1,0 +1,5 @@
+.custom-card{
+    display: flex;
+    background-color: var(--natural-white);
+    border-radius: 10px;
+}

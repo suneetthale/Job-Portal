@@ -1,0 +1,8 @@
+.custom-background{
+    background-color: var(--gray);
+    height: 100vh;
+}
+
+.custom-header{
+    background-color: var(--natural-white);
+}

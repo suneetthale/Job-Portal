@@ -1,0 +1,15 @@
+.required-label {
+  color: var(--error);
+}
+
+.custom-input {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+  background: var(--natural-white);
+}

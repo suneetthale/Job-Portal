@@ -1,0 +1,1 @@
+export {default as netflix_icon} from './netflix_icon.svg'

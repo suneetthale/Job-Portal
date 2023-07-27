@@ -1,0 +1,53 @@
+#root {
+  /* Primary Colors */
+  --primary: #1597e4;
+  --placeholder: #7a7a7a;
+  --error: #d86161;
+  --font-color: #212121;
+  --natural-white: #fff;
+  --gray: #e6e6e6;
+  --off-white: #fafafa;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+::placeholder {
+  color: var(--placeholder);
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--placeholder);
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--placeholder);
+}
+
+.place-holder-color {
+  color: var(--placeholder);
+}
+
+.font-color {
+  color: var(--font-color);
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.error-color {
+  color: var(--error);
+}

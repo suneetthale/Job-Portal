@@ -1,0 +1,17 @@
+button.cust-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+button.btn-primary {
+  color: var(--natural-white);
+  background-color: var(--primary);
+}
+
+.btn-secondary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: var(--natural-white);
+}
