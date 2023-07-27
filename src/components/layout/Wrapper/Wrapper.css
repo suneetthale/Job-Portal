@@ -1,7 +1,11 @@
-.custom-background{
-    background-color: var(--gray);
+.custom-background {
+  background-color: var(--gray);
 }
 
-.custom-header{
-    background-color: var(--natural-white);
+.custom-header {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  background-color: var(--natural-white);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
