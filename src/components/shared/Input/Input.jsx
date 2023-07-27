@@ -32,7 +32,7 @@ function Input({
         onChange={(e) => onChange(e, id)}
       ></input>
       {errorMsg && errorMsg.length ? (
-        <div className={`mt-1 float-left error-color`}>{errorMsg}</div>
+        <div className={`mt-1 text-sm float-left error-color`}>{errorMsg}</div>
       ) : null}
     </section>
   );

@@ -103,7 +103,7 @@ function FormModal({ closeModal, editPostId = null, fetchAllJobPosts }) {
       className="dialogue-backdrop"
       onClick={(e) => e.target === e.currentTarget && closeModal()}
     >
-      <div className="custom-modal">
+      <div className="custom-modal lg:w-6/12 sm:w-8/12">
         <section>
           <section className="flex justify-between items-center mb-6">
             <div className="text-xl font-color">Create a Job</div>
@@ -140,7 +140,7 @@ function FormModal({ closeModal, editPostId = null, fetchAllJobPosts }) {
                   required={true}
                   onChange={onFieldUpdate}
                 />
-                <section className="grid grid-cols-2 gap-6">
+                <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6">
                   <Input
                     id="location"
                     errorMsg={form.location.error}
@@ -161,7 +161,7 @@ function FormModal({ closeModal, editPostId = null, fetchAllJobPosts }) {
               </section>
             ) : (
               <section className="flex flex-col gap-6">
-                <section className="grid grid-cols-2 gap-6">
+                <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6">
                   <Input
                     id="experience_min"
                     type="number"
@@ -181,7 +181,7 @@ function FormModal({ closeModal, editPostId = null, fetchAllJobPosts }) {
                     onChange={onFieldUpdate}
                   />
                 </section>
-                <section className="grid grid-cols-2 gap-6">
+                <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6">
                   <Input
                     id="salary_min"
                     type="number"

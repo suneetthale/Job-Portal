@@ -57,7 +57,7 @@ function Wrapper() {
         </section>
         <section className="flex flex-col gap-4">
           <section className="text-xl">Created Job Posts</section>
-          <section className="grid grid-cols-2 gap-10">
+          <section className="grid lg:grid-cols-2 md:grid-cols-2 gap-10  sm:grid-cols-1">
             {jobPosts && jobPosts.length ? (
               jobPosts.map((data, i) => (
                 <JobCard
@@ -68,7 +68,7 @@ function Wrapper() {
                 ></JobCard>
               ))
             ) : (
-              <div>{textConstants.warningMessages.no_posts}</div>
+              <section>{textConstants.warningMessages.no_posts}</section>
             )}
           </section>
         </section>
